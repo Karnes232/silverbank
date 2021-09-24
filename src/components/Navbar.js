@@ -1,20 +1,25 @@
-import React from "react"
+import React, { useState } from "react"
 
 const Navbar = () => {
-  const checkbox = document.querySelector('.navigation__checkbox')
 
+  const [isOpen, setNav] = useState(false)
   const toggleNav = () => {
-    checkbox.checked = false
+    setNav(isOpen => !isOpen)
   }
 
   return (
     <div className="navigation">
-            <input type="checkbox" className="navigation__checkbox" id="navi-toggle"/>
-            <label for="navi-toggle" className="navigation__button">
-                <span className="navigation__icon">&nbsp;</span>
-            </label>
-
-            <div className="navigation__background">&nbsp;</div>
+           
+            <button
+              className={isOpen ? "navigation__button navigation__button-open" : "navigation__button"}
+              type="button"
+              onClick={toggleNav}
+              aria-label="Menu Button"
+            >
+              <span className="navigation__icon">&nbsp;</span>
+            </button>
+            
+            <div className={isOpen ? "navigation__background navigation__background-open" : "navigation__background"}>&nbsp;</div>
 
             <nav className="navigation__nav">
                 <ul className="navigation__list">
