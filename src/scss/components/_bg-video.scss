@@ -1,0 +1,33 @@
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -4;
+    opacity: .5;
+    overflow: hidden;
+
+    &__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 70vh;
+        width: 100%;
+        z-index: -1;
+        object-fit: cover;
+        object-position: center;
+
+        @include respond(tab-land) {
+            height: 80vh;
+            object-position: top;
+        }
+
+        @include respond(phone) {
+            height: 40vh;
+            object-position: top;
+        }
+    }
+}
