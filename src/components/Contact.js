@@ -14,12 +14,12 @@ const Contact = () => {
                         <form name='contactSilverBank' method="POST" action="/" data-netlify="true" className="form">
                         <input type="hidden" name="form-name" value="contact" />
                             <div class="form__group">
-                                <input type="text" class="form__input" placeholder="Full Name" id="name" required/>
+                                <input name='Name' type="text" class="form__input" placeholder="Full Name" id="name" required/>
                                 <label htmlFor="name" class="form__label">Full Name</label>
                             </div>
 
                             <div class="form__group">
-                                <input type="email" class="form__input" placeholder="Email address" id="email" required/>
+                                <input name='Email' type="email" class="form__input" placeholder="Email address" id="email" required/>
                                 <label htmlFor="email" class="form__label">Email address</label>
                             </div>
 
