@@ -12,6 +12,7 @@ const Contact = () => {
                             </h2>
                         </div>
                         <form name='contactSilverBank' method="POST" action="/" data-netlify="true" className="form">
+                        <input type="hidden" name="form-name" value="contact" />
                             <div class="form__group">
                                 <input type="text" class="form__input" placeholder="Full Name" id="name" required/>
                                 <label htmlFor="name" class="form__label">Full Name</label>
