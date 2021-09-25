@@ -10,7 +10,6 @@ const Gallery = () => {
     // The options of the gallery (from the playground current state)
     const options = {
         galleryLayout: 0,
-        enableInfiniteScroll: false,
     };
       
     // The size of the gallery container. The images will fit themselves in it
