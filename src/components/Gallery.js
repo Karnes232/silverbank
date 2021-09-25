@@ -8,6 +8,10 @@ const Gallery = () => {
     //"pro-gallery": "^3.1.38"
     const [width, setWidth] = useState(0)
     const [height, setHeight] = useState(0)
+    const handleResize = () => {
+        setWidth(window.innerWidth)
+        setHeight(window.innerHeight)
+    }
 
     // The options of the gallery (from the playground current state)
     const options = {
@@ -20,6 +24,7 @@ const Gallery = () => {
         if (typeof window !== undefined) {
             setWidth(window.innerWidth)
             setHeight(window.innerHeight)
+            window.addEventListener('resize', handleResize)
         }
     }, [])
     const container = {
