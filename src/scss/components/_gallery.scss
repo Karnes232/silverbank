@@ -1,6 +1,6 @@
 .pro-gallery {
     overflow: hidden;
-    min-height: 105vh;
+    min-height: 85vh;
 
     @include respond(tab-port) {
         min-height: 95vh;

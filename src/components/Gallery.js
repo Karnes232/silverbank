@@ -19,7 +19,7 @@ const Gallery = () => {
     };
       
     // The eventsListener will notify you anytime something has happened in the gallery.
-    const eventsListener = (eventName, eventData) => console.log({eventName, eventData}); 
+    //const eventsListener = (eventName, eventData) => console.log({eventName, eventData}); 
       
     // The scrollingElement is usually the window, if you are scrolling inside another element, supply it here
 
@@ -29,7 +29,7 @@ const Gallery = () => {
             items={items}
             options={options}
             container={container}
-            eventsListener={eventsListener}
+            //eventsListener={eventsListener}
             scrollingElement={() => document.getElementById('pro-gallery-default-dom-id') || window}
             className="gallery"
         />
