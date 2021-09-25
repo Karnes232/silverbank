@@ -1,5 +1,7 @@
 import * as React from "react"
 import '../scss/main.scss'
+import SEO from "../components/seo"
+import Helment from 'react-helmet'
 import Navbar from "../components/Navbar"
 import Header from "../components/Header"
 import About from "../components/About"
@@ -13,6 +15,12 @@ import Contact from '../components/Contact'
 const IndexPage = () => {
   return (
     <main>
+      <Helment>
+          <link rel="canonical" href="https://www.silverbankwhales.com/" />
+          <meta name="google-site-verification" content="6C1VjAaC2hAZxjbi7ydNSMBeNrN1JlKtIcJDxum0jrs" />
+      
+      </Helment>
+      <SEO title="Whale Watching" />
       <Navbar/>
       <Header/>
       <About/>

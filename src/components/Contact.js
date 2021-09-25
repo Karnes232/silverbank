@@ -1,8 +1,10 @@
 import React from 'react'
+import LazyLoad from 'react-lazyload';
 
 const Contact = () => {
     return (
         <section id="contact" class="section-book">
+        <LazyLoad height={200} offset={50} once>
             <div class="row">
                 <div class="book">
                     <div class="book__form">
@@ -35,6 +37,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+        </LazyLoad>
         </section>
     )
 }
