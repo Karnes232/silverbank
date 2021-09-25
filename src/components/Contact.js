@@ -27,7 +27,13 @@ const Contact = () => {
                                 <textarea id="message" name="message" class="form__input" placeholder="Send us a message" required/>
                                 <label htmlFor="message" class="form__label">Send us a message</label>
                             </div>
-                                
+
+                            <div className="form__group">
+                                <select name="tourSelect" id="tourSelect" class="form__input">
+                                    <option value="2 Night">Two Night Tour</option>
+                                    <option value="3 Night">Three Night Tour</option>
+                                </select>
+                            </div>  
                             <div class="form__group">
                                 <button type="submit" class="btn btn--green">Next step &rarr;</button>
                             </div>

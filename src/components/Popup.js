@@ -1,6 +1,6 @@
 import React from 'react'
 import image4 from '../images/image4.webp'
-import image7 from '../images/image7.jpeg'
+import image7 from '../images/image7.webp'
  
 const Popup = () => {
     return (

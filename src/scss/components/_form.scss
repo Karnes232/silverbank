@@ -1,6 +1,12 @@
 .form {
     &__group:not(:last-child) {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    &__group {
+        select {
+            margin-bottom: 2rem;
+        }
     }
     &__input {
         font-size: 1.5rem;
