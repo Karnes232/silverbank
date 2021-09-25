@@ -30,7 +30,7 @@ const Gallery = () => {
             options={options}
             container={container}
             eventsListener={eventsListener}
-            scrollingElement={() => document.getElementById('gallery') || window}
+            scrollingElement={() => document.getElementById('pro-gallery-default-dom-id') || window}
             className="gallery"
         />
     )
