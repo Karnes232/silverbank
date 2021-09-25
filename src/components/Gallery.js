@@ -5,7 +5,7 @@ import { items } from "../data/photoGallery";
 import { useWindowHeight, useWindowWidth } from '../data/windowDimensions';
 
 const Gallery = () => {
-    
+    //"pro-gallery": "^3.1.38"
 
     // The options of the gallery (from the playground current state)
     const options = {
@@ -30,6 +30,7 @@ const Gallery = () => {
             options={options}
             container={container}
             eventsListener={eventsListener}
+            scrollingElement={() => document.getElementById('gallery') || window}
             className="gallery"
         />
     )
