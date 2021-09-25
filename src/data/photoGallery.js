@@ -2,7 +2,7 @@ import nextId from "react-id-generator";
 
 export const items = [
   { // Image Item:
-    itemId: nextId(),
+    itemId: '1',
     mediaUrl: 'https://i.ibb.co/NL5c439/IMG-8190.jpg',
     metaData: {
       type: 'image',
@@ -11,7 +11,7 @@ export const items = [
     }
   },
   { 
-    itemId: nextId(),
+    itemId: '2',
     mediaUrl: 'https://i.ibb.co/tbXw0N6/IMG-8187.jpg',
     metaData: {
       type: 'image',
@@ -20,7 +20,7 @@ export const items = [
     }
   },
   {
-    itemId: nextId(),
+    itemId: '3',
     mediaUrl: 'https://i.ibb.co/QY18cxX/IMG-8172.jpg',
     metaData: {
       type: 'image',
@@ -29,7 +29,7 @@ export const items = [
     }
   },
   {
-    itemId: nextId(),
+    itemId: '4',
     mediaUrl: 'https://i.ibb.co/g47KJnx/IMG-8162.jpg',
     metaData: {
       type: 'image',
@@ -38,7 +38,7 @@ export const items = [
     }
   },
   { 
-    itemId: nextId(),
+    itemId: '5',
     mediaUrl: 'https://i.ibb.co/pL41K9P/IMG-8158.jpg',
     metaData: {
       type: 'image',
@@ -47,7 +47,7 @@ export const items = [
     }
   },
   { 
-    itemId: nextId(),
+    itemId: '6',
     mediaUrl: 'https://i.ibb.co/4dB7mWK/IMG-8153.jpg',
     metaData: {
       type: 'image',
@@ -523,4 +523,4 @@ export const items = [
       width: 2,
     }
   },
-  ].sort(() => Math.random() - 0.5);
+  ]//.sort(() => Math.random() - 0.5);
