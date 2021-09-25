@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { ProGallery } from 'pro-gallery';
 import 'pro-gallery/dist/statics/main.css';
 import { items } from "../data/photoGallery";
-import { useWindowHeight, useWindowWidth } from '../data/windowDimensions';
 
 const Gallery = () => {
     //"pro-gallery": "^3.1.38"
