@@ -1,5 +1,6 @@
 import * as React from "react"
 import '../scss/main.scss'
+import LazyLoad from 'react-lazyload';
 import SEO from "../components/seo"
 import Helment from 'react-helmet'
 import Navbar from "../components/Navbar"
@@ -24,13 +25,27 @@ const IndexPage = () => {
       <SEO title="Whale Watching" />
       <Navbar/>
       <Header/>
-      <About/>
-      <Boat/>
-      <BoatInfo/>
-      <Packages/>
-      <Tours/>
-      <Contact/>
-      <Popup/>
+      <LazyLoad height={200} offset={50} once>
+        <About/>
+      </LazyLoad>
+      <LazyLoad height={200} offset={50} once>
+        <Boat/>
+      </LazyLoad>
+      <LazyLoad height={200} offset={50} once>
+        <BoatInfo/>
+      </LazyLoad>
+      <LazyLoad height={200} offset={50} once>
+        <Packages/>
+      </LazyLoad>
+      <LazyLoad height={200} offset={50} once>
+        <Tours/>
+      </LazyLoad>
+      <LazyLoad height={200} offset={50} once>
+        <Contact/>
+      </LazyLoad>
+      <LazyLoad height={200} offset={50} once>
+        <Popup/>
+      </LazyLoad>
     </main>
   )
 }

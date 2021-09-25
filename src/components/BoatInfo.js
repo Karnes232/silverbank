@@ -1,8 +1,8 @@
 import React from 'react'
 import Composition from './Composition'
-import image1 from '../images/boat2.png'
-import image2 from '../images/boat3.png'
-import image3 from '../images/boat4.png'
+import image1 from '../images/boat2-desk.webp'
+import image2 from '../images/boat3-desk.webp'
+import image3 from '../images/boat4-desk.webp'
 
 const BoatInfo = () => {
     return (

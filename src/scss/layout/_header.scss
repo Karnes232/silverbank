@@ -4,7 +4,7 @@
         to right bottom, 
         rgba($color-primary-light, 0.4), 
         rgba($color-primary-dark, 0.4)), 
-        url('../images/hero.png');
+        url('../images/hero-desk.webp');
     background-size: cover;
     background-position: 10%, 50%;
     position: relative;
@@ -16,15 +16,35 @@
         only screen and (min-width: 125em) {
         background-image: linear-gradient(
             to right bottom, 
-            rgba($color-primary-light, 0.8), 
-            rgba($color-primary-dark, 0.8)), 
-            url('../images/hero.png');
+            rgba($color-primary-light, 0.4), 
+            rgba($color-primary-dark, 0.4)), 
+            url('../images/hero-desk.webp');
     }
 
-    @include respond(tab-port){
+    @include respond(tab-land){
         margin-bottom: 8rem;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+        background-image: linear-gradient(
+        to right bottom, 
+            rgba($color-primary-light, 0.4), 
+            rgba($color-primary-dark, 0.4)), 
+            url('../images/hero-tab-land.webp');
+    }
+    @include respond(tab-port){
+        background-image: linear-gradient(
+        to right bottom, 
+            rgba($color-primary-light, 0.4), 
+            rgba($color-primary-dark, 0.4)), 
+            url('../images/hero-tab-port.webp');
+    }
+    @include respond(phone){
+
+        background-image: linear-gradient(
+        to right bottom, 
+            rgba($color-primary-light, 0.4), 
+            rgba($color-primary-dark, 0.4)), 
+            url('../images/hero-phone.webp');
     }
 
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import LazyLoad from 'react-lazyload';
 
+
 const Composition = ({image1, image2, image3}) => {
     return (
         <div class="composition">

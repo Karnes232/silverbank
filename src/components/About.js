@@ -1,11 +1,12 @@
 import React from 'react'
 import Composition from './Composition'
-import image1 from '../images/image1.png'
-import image2 from '../images/image2.jpeg'
-import image3 from '../images/image3.jpeg'
-import image4 from '../images/image4.png'
-import image5 from '../images/image5.jpeg'
-import image6 from  '../images/image6.jpeg'
+import image1 from '../images/image1-desk.webp'
+import image2 from '../images/image2-desk.webp'
+import image3 from '../images/image3-desk.webp'
+import image4 from '../images/image4-desk.webp'
+import image5 from '../images/image5-desk.webp'
+import image6 from  '../images/image6-desk.webp'
+
 
 const About = () => {
     return (
@@ -26,12 +27,20 @@ const About = () => {
                     </p>
                 </div>
                 <div class="col-1-of-2">
-                    <Composition image1={image1} image2={image2} image3={image3}/>
+                    <Composition 
+                        image1={image1} 
+                        image2={image2} 
+                        image3={image3} 
+                    />
                 </div>
             </div>
             <div class="row">
                 <div class="col-1-of-2">
-                    <Composition image1={image4} image2={image5} image3={image6}/>
+                    <Composition 
+                        image1={image4} 
+                        image2={image5} 
+                        image3={image6}
+                    />
                 </div>
                 <div class="col-1-of-2">
                     <h3 class="heading-tertiary u-margin-bottom-small">Snorkeling with humpback whales</h3>
