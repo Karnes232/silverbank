@@ -20,14 +20,9 @@ const Tours = () => {
                                         <li>Drinks and Meals</li>
                                     </ul>
                                     <p class="card__details-text u-margin-bottom-small">
-                                        Each trip is an all-inclusive 2 night experience. You will board the boat in Sousa, Dominican Republic, late afternoon of the first night and arrive early morning to the Silverbank.
+                                        Each trip is an all-inclusive 2 night experience. You will board the boat in Sousa, Dominican Republic.
                                     </p>
-                                    <p class="card__details-text u-margin-bottom-small">
-                                        The next day you will have the opportunity to board our smaller boat where we will have the chance to get up close and snorkel with these beautiful whales. After lunch onboard you will have another opportunity to snorkel. 
-                                    </p>
-                                    <p class="card__details-text u-margin-bottom-small">
-                                        The last night will be spent on our way back to Sousa.
-                                    </p>
+
                                 </div>
                             </div>
                             <div class="card__side card__side--back card__side--back-1">
@@ -37,7 +32,7 @@ const Tours = () => {
                                         <p class="card__price-value">$1250</p>
                                         <p class="card__price-only">Min 2 people</p>
                                     </div>
-                                    <a href="#popup" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">More Info</a>
                                 </div>
                             </div>
                         </div>
@@ -58,13 +53,7 @@ const Tours = () => {
                                         <li>Drinks and Meals</li>
                                     </ul>
                                     <p class="card__details-text u-margin-bottom-small">
-                                        Each trip is an all-inclusive 3 night experience. You will board the boat in Sousa, Dominican Republic, late afternoon of the first night and arrive early morning to the Silverbank.
-                                    </p>
-                                    <p class="card__details-text u-margin-bottom-small">
-                                        The next two days you will have the opportunity to board our smaller boat where we will have the chance to get up close and snorkel with these beautiful whales. After lunch onboard you will have another opportunity to snorkel. 
-                                    </p>
-                                    <p class="card__details-text">
-                                        The last night will be spent on our way back to Sousa.
+                                        Each trip is an all-inclusive 3 night experience. You will board the boat in Sousa, Dominican Republic.
                                     </p>
                                 </div>
                             </div>
@@ -75,7 +64,7 @@ const Tours = () => {
                                         <p class="card__price-value">$1750</p>
                                         <p class="card__price-only">Min 2 people</p>
                                     </div>
-                                    <a href="#popup" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">More Info</a>
                                 </div>
                             </div>
                         </div>

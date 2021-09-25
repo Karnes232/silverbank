@@ -10,6 +10,7 @@ import BoatInfo from "../components/BoatInfo"
 import Packages from "../components/Packages"
 import Tours from '../components/Tours'
 import Contact from '../components/Contact'
+import Popup from "../components/Popup"
 
 // markup
 const IndexPage = () => {
@@ -29,6 +30,7 @@ const IndexPage = () => {
       <Packages/>
       <Tours/>
       <Contact/>
+      <Popup/>
     </main>
   )
 }
