@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "kill": "npx kill-port 8000"
   },
   "dependencies": {
     "gatsby": "^3.13.1",
