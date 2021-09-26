@@ -3,7 +3,7 @@ import nextId from "react-id-generator";
 export const items = [
   { // Image Item:
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/NL5c439/IMG-8190.jpg',
+    mediaUrl: 'https://i.ibb.co/Vp12k8b/image1.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -12,25 +12,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/tbXw0N6/IMG-8187.jpg',
-    metaData: {
-      type: 'image',
-      height: 1,
-      width: 2,
-    }
-  },
-  {
-    itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/QY18cxX/IMG-8172.jpg',
-    metaData: {
-      type: 'image',
-      height: 1,
-      width: 2,
-    }
-  },
-  {
-    itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/g47KJnx/IMG-8162.jpg',
+    mediaUrl: 'https://i.ibb.co/GTwXL2j/image2.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -39,7 +21,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/pL41K9P/IMG-8158.jpg',
+    mediaUrl: 'https://i.ibb.co/F6K2YXh/image3.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -48,7 +30,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/4dB7mWK/IMG-8153.jpg',
+    mediaUrl: 'https://i.ibb.co/4Y3pkVD/image4.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -57,7 +39,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/CbvYqRp/IMG-8145.jpg',
+    mediaUrl: 'https://i.ibb.co/PQwyJqm/image5.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -66,7 +48,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/Yk8mGx0/IMG-8141.jpg',
+    mediaUrl: 'https://i.ibb.co/0G8jXZm/image6.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -75,7 +57,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/sFrVWpk/IMG-8135.jpg',
+    mediaUrl: 'https://i.ibb.co/CHcx1wT/image7.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -84,7 +66,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/cwrbrZ8/IMG-8131.jpg',
+    mediaUrl: 'https://i.ibb.co/5rVkY59/image8.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -93,7 +75,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/N7nnPW5/IMG-8124.jpg',
+    mediaUrl: 'https://i.ibb.co/5MXXXKp/image9.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -102,7 +84,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/v3r14M8/IMG-8105.jpg',
+    mediaUrl: 'https://i.ibb.co/WWR3sPY/image10.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -111,7 +93,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/bHQZsGW/IMG-8096.jpg',
+    mediaUrl: 'https://i.ibb.co/x59Cgyr/image11.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -120,7 +102,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/cTtXwqZ/IMG-8091.jpg',
+    mediaUrl: 'https://i.ibb.co/jg0rHNK/image12.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -129,7 +111,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/FqJsB7j/IMG-8011.jpg',
+    mediaUrl: 'https://i.ibb.co/VSMHLbg/image13.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -138,7 +120,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/17HB0Mf/IMG-7991.jpg',
+    mediaUrl: 'https://i.ibb.co/B6qpNdb/image14.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -147,7 +129,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/NSnTzdq/IMG-7989.jpg',
+    mediaUrl: 'https://i.ibb.co/RT58n4Y/image15.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -156,7 +138,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/PFFz08Q/IMG-7987.jpg',
+    mediaUrl: 'https://i.ibb.co/zZQDYR1/image16.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -165,7 +147,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/FYbt6sQ/IMG-7983.jpg',
+    mediaUrl: 'https://i.ibb.co/bBPqwXq/image17.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -174,7 +156,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/VBkBQyL/IMG-7979.jpg',
+    mediaUrl: 'https://i.ibb.co/g4HZ9x1/image18.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -183,7 +165,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/64T79Qr/IMG-7974.jpg',
+    mediaUrl: 'https://i.ibb.co/X8wPp5V/image19.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -192,7 +174,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/PmfYDf9/IMG-7969.jpg',
+    mediaUrl: 'https://i.ibb.co/h2901sR/img1.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -201,7 +183,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/hffGMDF/IMG-7963.jpg',
+    mediaUrl: 'https://i.ibb.co/gjc82R4/img2.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -210,7 +192,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/hWsQ9sw/IMG-7951.jpg',
+    mediaUrl: 'https://i.ibb.co/rxWKCC8/img3.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -219,7 +201,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/km1nkPx/IMG-8086.jpg',
+    mediaUrl: 'https://i.ibb.co/Zd7sfBR/img4.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -228,7 +210,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/fxqGDHD/IMG-8023.jpg',
+    mediaUrl: 'https://i.ibb.co/kchJgGP/img5.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -237,7 +219,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/0YqHm30/image-221.png',
+    mediaUrl: 'https://i.ibb.co/nCg3VT2/img6.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -246,7 +228,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/kgvdp66/image-220.png',
+    mediaUrl: 'https://i.ibb.co/CQ3BJ6Q/img7.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -255,7 +237,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/VvtvTNL/image-219.png',
+    mediaUrl: 'https://i.ibb.co/ZGYzhVX/img8.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -264,7 +246,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/YfyGJ9T/image-218.png',
+    mediaUrl: 'https://i.ibb.co/V9G37Mm/img9.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -273,7 +255,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/7CdxDNs/image-217.png',
+    mediaUrl: 'https://i.ibb.co/9yyjJ2Z/Img1.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -282,7 +264,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/QmVpQ6L/image-216.png',
+    mediaUrl: 'https://i.ibb.co/C1TgTFQ/Img2.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -291,7 +273,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/tqRXtNH/image6-147.png',
+    mediaUrl: 'https://i.ibb.co/zG5jNX9/Img3.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -300,7 +282,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/4dcHcd1/image6-141.png',
+    mediaUrl: 'https://i.ibb.co/bJrQx6C/Img4.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -309,7 +291,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/XkJzLNV/image4-006.png',
+    mediaUrl: 'https://i.ibb.co/WFmBRTX/Img5.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -318,7 +300,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/CH6t62q/banner2.png',
+    mediaUrl: 'https://i.ibb.co/nRvNxZd/Img6.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -327,7 +309,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/vDXJT82/banner.png',
+    mediaUrl: 'https://i.ibb.co/Kr46Ztm/Img7.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -336,7 +318,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/dMSNfMp/1X5A6445.jpg',
+    mediaUrl: 'https://i.ibb.co/g7p5V4X/Img8.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -345,7 +327,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/bg9bd7D/1X5A6427.jpg',
+    mediaUrl: 'https://i.ibb.co/LCBgKbS/Img9.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -354,7 +336,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/C1Z2Bnw/1X5A6425.jpg',
+    mediaUrl: 'https://i.ibb.co/gWDrgyt/Img10.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -363,7 +345,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/Qv6ZbhD/1X5A6411.jpg',
+    mediaUrl: 'https://i.ibb.co/YXRRBqH/Img11.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -372,7 +354,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/4V05K8f/1X5A6403.jpg',
+    mediaUrl: 'https://i.ibb.co/481cRp0/Img12.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -381,7 +363,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/0cWwS2V/1X5A6379.jpg',
+    mediaUrl: 'https://i.ibb.co/GFbKMNh/Img13.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -390,7 +372,7 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/5rn4bpN/1X5A6375.jpg',
+    mediaUrl: 'https://i.ibb.co/x144mL9/Img14.webp',
     metaData: {
       type: 'image',
       height: 1,
@@ -399,13 +381,229 @@ export const items = [
   },
   { 
     itemId: nextId(),
-    mediaUrl: 'https://i.ibb.co/8rWHgMP/1X5A6345.jpg',
+    mediaUrl: 'https://i.ibb.co/rybxTHw/Img15.webp',
     metaData: {
       type: 'image',
       height: 1,
       width: 2,
     }
   },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/J5P4xGc/Img16.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/SNBrcjJ/Img18.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/K5rRkKv/Img19.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/9wMM2DD/Img20.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/f42t6gn/Img21.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/zJQ7Sn7/Img22.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/yg0cxPg/IMG1.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/mqj8N0V/IMG2.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/ZM75MsM/IMG3.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/TtPhYGj/IMG4.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/xzJLtmb/IMG5.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/HKWmnzJ/IMG6.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/gdPBmTr/IMG7.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/sJM2jJ8/IMG8.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/P5rVqbh/IMG9.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/rGQYXgJ/IMG10.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/37bVWsp/IMG11.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/TKc9KPH/IMG12.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/SRHgCbC/IMG13.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/8dn9WyV/IMG14.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/1GvPVnK/IMG15.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/thrqH04/IMG16.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/7v5yt99/IMG17.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },
+  { 
+    itemId: nextId(),
+    mediaUrl: 'https://i.ibb.co/yVQSR7R/IMG18.webp',
+    metaData: {
+      type: 'image',
+      height: 1,
+      width: 2,
+    }
+  },  
   { // Video Item:
     itemId: nextId(),
     mediaUrl: 'https://www.youtube.com/embed/_6p0J6F35PE?playlist=_6p0J6F35PE&loop=1',
