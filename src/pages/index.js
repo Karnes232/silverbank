@@ -20,6 +20,7 @@ const IndexPage = () => {
       <Helment>
           <link rel="canonical" href="https://www.silverbankwhales.com/" />
           <meta name="google-site-verification" content="6C1VjAaC2hAZxjbi7ydNSMBeNrN1JlKtIcJDxum0jrs" />
+          <meta property="og:image" content="https://www.silverbankwhales.com/static/icon-4e928242109ef3280add234b5f06de05.webp" />
       
       </Helment>
       <SEO title="Whale Watching" />
