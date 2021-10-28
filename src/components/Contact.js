@@ -11,8 +11,8 @@ const Contact = () => {
                                 Send us a message
                             </h2>
                         </div>
-                        <form name='newForm' method="POST" action="/" data-netlify="true" className="form">
-                        <input type="hidden" name="form-name" value="newForm" />
+                        <form name='contact' method="POST" action="/" data-netlify="true" className="form">
+                        <input type="hidden" name="form-name" value="contact" />
                             <div class="form__group">
                                 <input name='name' type="text" class="form__input" placeholder="Full Name" id="name" required/>
                                 <label htmlFor="name" class="form__label">Full Name</label>
