@@ -40,9 +40,7 @@ const IndexPage = () => {
       <LazyLoad height={200} offset={50} once>
         <Tours/>
       </LazyLoad>
-      <LazyLoad height={200} offset={50} once>
         <Contact/>
-      </LazyLoad>
 
         <Popup/>
 
