@@ -145,7 +145,20 @@
         font-weight: 100;
     }
 
+    &__price-disclaimer {
+        margin-top: 1rem;
+    }
 
+    @include respond(desktop) { 
+        &__price-box {
+            margin-bottom: 2rem;
+        }
+    
+        &__price-disclaimer {
+            margin-top: 10rem;
+        }
+    }
+        
 
     //@include respond(tab-port) {
     @media only screen and (max-width: 56.25em), 

@@ -31,7 +31,9 @@ const Tours = () => {
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$1250</p>
                                         <p class="card__price-only">Min 2 people</p>
+                                        <p class="card__price-disclaimer"> A $350 pp fuel surcharge & port expenses fee not included <br/>in price are to be paid on board in cash.</p>
                                     </div>
+                                    
                                     <a href="#popup" class="btn btn--white">More Info</a>
                                 </div>
                             </div>
@@ -63,6 +65,7 @@ const Tours = () => {
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$1750</p>
                                         <p class="card__price-only">Min 2 people</p>
+                                        <p class="card__price-disclaimer"> A $400 pp fuel surcharge & port expenses fee not included <br/>in price are to be paid on board in cash.</p>
                                     </div>
                                     <a href="#popup" class="btn btn--white">More Info</a>
                                 </div>
