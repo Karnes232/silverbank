@@ -1,15 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const Contact = () => {
+    const [message, setMessage] = useState(false)
     return (
         <section id="contact" class="section-book">
             <div class="row">
+                
                 <div class="book">
                     <div class="book__form">
+                        {message ? <h2>Thank you for your message!</h2> : <h2>Contact us</h2>}
                         <div class="u-margin-bottom-medium">
-                            <h2 class="heading-secondary">
-                                Send us a message
-                            </h2>
+                            {message ? 
+                                <h2 class="heading-secondary">Thank you for your message!</h2> : 
+                                <h2 class="heading-secondary">Contact us</h2>
+                            }
                         </div>
                         <form name="contact" method="POST" action="/" data-netlify="true" className="form" data-netlify-honeypot="bot-field">
                         <input type="hidden" name="form-name" value="contact" />
@@ -35,7 +39,13 @@ const Contact = () => {
                                 </select>
                             </div>  
                             <div class="form__group">
-                                <button type="submit" class="btn btn--green">Next step &rarr;</button>
+                                <button 
+                                    type="submit" 
+                                    class="btn btn--green"
+                                    onClick={() => setMessage(true)}
+                                >
+                                    Next step &rarr;
+                                </button>
                             </div>
                         </form>
                     </div>
