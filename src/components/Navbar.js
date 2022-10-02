@@ -14,6 +14,7 @@ const Navbar = () => {
               className={isOpen ? "navigation__button navigation__button-open" : "navigation__button"}
               type="button"
               onClick={toggleNav}
+              onKeyDown={toggleNav}
               aria-label="Menu Button"
             >
               <span className="navigation__icon">&nbsp;</span>
@@ -23,11 +24,12 @@ const Navbar = () => {
 
             <nav className="navigation__nav">
                 <ul className="navigation__list">
-                    <li className="navigation__item" onClick={toggleNav}><a href="/#about" class="navigation__link"><span>01</span>About Silverbank</a></li>
-                    <li className="navigation__item" onClick={toggleNav}><a href="/#boat" class="navigation__link"><span>02</span>Our Boat</a></li>
-                    <li className="navigation__item" onClick={toggleNav}><a href="/#tours" class="navigation__link"><span>03</span>Tours</a></li>
-                    <li className="navigation__item" onClick={toggleNav}><a href="/gallery" class="navigation__link"><span>04</span>Photo Gallery</a></li>
-                    <li className="navigation__item" onClick={toggleNav}><a href="/#contact" class="navigation__link"><span>05</span>Contact Us</a></li>
+                <li>
+                    <button className="navigation__item" onClick={toggleNav} onKeyDown={toggleNav}><a href="/#about" className="navigation__link"><span>01</span>About Silverbank</a></button></li>
+                 <li>   <button className="navigation__item" onClick={toggleNav} onKeyDown={toggleNav}><a href="/#boat" className="navigation__link"><span>02</span>Our Boat</a></button></li>
+                  <li>  <button className="navigation__item" onClick={toggleNav} onKeyDown={toggleNav}><a href="/#tours" className="navigation__link"><span>03</span>Tours</a></button></li>
+                 <li>   <button className="navigation__item" onClick={toggleNav} onKeyDown={toggleNav}><a href="/gallery" className="navigation__link"><span>04</span>Photo Gallery</a></button></li>
+                 <li>   <button className="navigation__item" onClick={toggleNav} onKeyDown={toggleNav}><a href="/#contact" className="navigation__link"><span>05</span>Contact Us</a></button></li>
                 </ul>
             </nav>
     </div>

@@ -10,14 +10,14 @@ const Popup = () => {
                     <img 
                         srcset={image4}
                         sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"                           
-                        alt="Tour photo"
+                        alt="Whale Watching"
                         class="popup__img"
                         src={image4}
                     />
                     <img 
                         srcset={image7}
                         sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"                           
-                        alt="Tour photo"
+                        alt="Whale Watching"
                         class="popup__img"
                         src={image7}
                     />

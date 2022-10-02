@@ -1,51 +1,39 @@
 import React, { useState, useEffect } from 'react'
-import { ProGallery } from 'pro-gallery';
-import 'pro-gallery/dist/statics/main.css';
-import { items } from "../data/photoGallery";
+import FsLightbox from 'fslightbox-react';
+import PhotoAlbum from "react-photo-album";
+import { items } from "../data/photoGalleryNew";
+
+const slides = items.map(photo => {
+    return photo.src
+})
 
 const Gallery = () => {
-    //"pro-gallery": "^3.1.38"
-    const [width, setWidth] = useState(0)
-    const [height, setHeight] = useState(0)
-    const handleResize = () => {
-        setWidth(window.innerWidth)
-        setHeight(window.innerHeight)
-    }
-
-    // The options of the gallery (from the playground current state)
-    const options = {
-        galleryLayout: 0,
-    };
-      
-    // The size of the gallery container. The images will fit themselves in it
-
-    useEffect(() => {
-        if (typeof window !== undefined) {
-            setWidth(window.innerWidth)
-            setHeight(window.innerHeight)
-            window.addEventListener('resize', handleResize)
-        }
-    }, [])
-    const container = {
-        width: width,
-        height: height
-    };
-      
-    // The eventsListener will notify you anytime something has happened in the gallery.
-    //const eventsListener = (eventName, eventData) => console.log({eventName, eventData}); 
-      
-    // The scrollingElement is usually the window, if you are scrolling inside another element, supply it here
-
-    
+    const [toggler, setToggler] = useState(false);
+    const [photoIndex, setPhotoIndex] = useState(0);
     return (
-        <ProGallery
-            items={items}
-            options={options}
-            container={container}
-            //eventsListener={eventsListener}
-            scrollingElement={() => document.getElementById('pro-gallery-default-dom-id') || window}
-            className="gallery"
-        />
+        
+        <>
+        <PhotoAlbum 
+            //layout="masonry" 
+            layout="rows"
+            // layout="columns"
+            photos={items} 
+            padding={1} 
+            spacing={0}
+            columns={2}
+            componentsProps={{ imageProps: { loading: "lazy" } }}
+            onClick={(event, photo, index) => {
+                setToggler(!toggler)
+                setPhotoIndex(index+1)
+            }}
+            />
+            <FsLightbox
+                toggler={toggler}
+                sources={slides}
+                slide={photoIndex}
+            />
+       
+        </>
     )
 }
 

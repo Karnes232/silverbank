@@ -16,6 +16,7 @@
     "kill": "npx kill-port 8000"
   },
   "dependencies": {
+    "fslightbox-react": "^1.6.2-2",
     "gatsby": "^3.13.1",
     "gatsby-plugin-image": "^1.14.0",
     "gatsby-plugin-manifest": "^3.14.0",
@@ -25,12 +26,12 @@
     "gatsby-plugin-sitemap": "^4.10.0",
     "gatsby-source-filesystem": "^3.14.0",
     "gatsby-transformer-sharp": "^3.14.0",
-    "pro-gallery": "^3.1.38",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-id-generator": "^3.0.2",
     "react-lazyload": "^3.2.0",
+    "react-photo-album": "^1.16.1",
     "sass": "^1.42.1"
   }
 }
